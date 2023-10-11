@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import Home from './screens/home'
 
-function App() {
+export default function App() {
   return (
-    <div className="main-container">
-      <span> React App </span>
-    </div>
-  );
-} 
-
-export default App;
+    <Home />
+  )
+}
