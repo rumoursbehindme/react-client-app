@@ -1,0 +1,6 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(87, 144, 194);
+    border-radius: 30px;
+}
