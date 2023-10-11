@@ -14,6 +14,10 @@ a {
     transition: all 0.4s ease;
 }
 
+.sidebar-button-body:hover {
+    color: white;
+}
+
 .sidebar-button-body.active {
     background-color: rgb(224 215 209 / 40%);
     color: #fff;
