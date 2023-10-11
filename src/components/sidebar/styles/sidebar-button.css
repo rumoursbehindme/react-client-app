@@ -1,0 +1,19 @@
+a {
+    text-decoration: none !important;
+}
+
+.sidebar-button-body {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-button-title{
+    margin: 4px auto;
+    font-weight: 600;
+    font-size: 14px;
+} 
