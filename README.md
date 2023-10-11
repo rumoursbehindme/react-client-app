@@ -70,5 +70,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Standards:
-font-size: 14px
+<!-- Help -->
+# Extensions
+* Name: ES7+ React/Redux/React-Native snippets
+Id: dsznajder.es7-react-js-snippets
+Description: Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
+Version: 4.4.3
+Publisher: dsznajder
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+
+* Name: Tabnine: AI Autocomplete & Chat for Javascript, Python, Typescript, PHP, Go, Java & more
+Id: TabNine.tabnine-vscode
+Description: AI coding assistant with AI code completions and AI code chat right in the IDE, helping developers by generating code, writing unit tests and documentation, explaining legacy code, and much more. Tabnine supports all major languages including JavaScript, Python, Java, Typescript c/c++ and more.
+Version: 3.17.0
+Publisher: TabNine
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
+
+
+# Standards:
+* font-size: 14px
