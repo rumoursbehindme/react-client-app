@@ -1,14 +1,17 @@
 import React from 'react'
 import { ISidebarButtonProperties } from './types'
 import { IconContext } from 'react-icons';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './styles/sidebar-button.css'
 
 export default function SidebarButton(properties: ISidebarButtonProperties) {
-  const { to, title, icon } = properties;
+  const { redirectUrl, title, icon } = properties;
+  const location = useLocation();
+  const isActive = location.pathname === redirectUrl;
+  const sideBarButtonContainer = isActive ? 'sidebar-button-body active' : 'sidebar-button-body';
   return (
-    <Link to={to}>
-      <div className='sidebar-button-body'>
+    <Link to={redirectUrl}>
+      <div className={sideBarButtonContainer}>
         <IconContext.Provider value={{ size: '24px', className: "sidebar-button-sub-container" }}>
           {icon}
           <p className='sidebar-button-title'>{title}</p>

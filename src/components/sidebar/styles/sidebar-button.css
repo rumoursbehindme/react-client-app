@@ -6,14 +6,27 @@ a {
     width: 80px;
     height: 80px;
     border-radius: 20px;
-    color: antiquewhite;
+    color: rgb(212, 209, 203);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s ease;
 }
-.sidebar-button-title{
+
+.sidebar-button-body:hover {
+    color: white;
+}
+
+.sidebar-button-body.active {
+    background-color: rgb(224 215 209 / 40%);
+    color: #fff;
+    transform: scale(1.05);
+
+}
+
+.sidebar-button-title {
     margin: 4px auto;
     font-weight: 600;
     font-size: 14px;
-} 
+}

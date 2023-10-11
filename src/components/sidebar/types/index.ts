@@ -1,5 +1,5 @@
 export interface ISidebarButtonProperties {
     title: string;
-    to: string;
+    redirectUrl: string;
     icon: any;
 }
