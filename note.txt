@@ -1,0 +1,15 @@
+//Command
+1. npx create-react-app .
+
+//Added typescript support 
+//Command
+2.npm install --save @types/node @types/react @types/react-dom @types/jest
+
+//Added tsconfig.json file - which is from another typescript react project
+
+//creating typescript react project
+//Command
+3. npx create-react-app <projectName> --template typescript
+
+
+
