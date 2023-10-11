@@ -1,6 +1,7 @@
 .main-container {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(87, 144, 194);
+    background-color: rgb(219, 154, 134);
     border-radius: 30px;
+    display: flex;
 }
