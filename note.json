@@ -1,0 +1,34 @@
+{
+    "notes": [
+        {
+            "id": 1,
+            "title": "Creating react app",
+            "command": "npx create-react-app .",
+            "key": "createReactApp"
+        },
+        {
+            "id": 2,
+            "title": "Added type script support",
+            "command": "npm install --save @types/node @types/react @types/react-dom @types/jest",
+            "key": "reactTypeSupport"
+        },
+        {
+            "id": 3,
+            "title": "Creating a react app with typescript support directly",
+            "command": "npx create-react-app <projectName> --template typescript",
+            "key": "reactTypeScriptApp"
+        },
+        {
+            "id": 4,
+            "title": "Added react router dom",
+            "command": "yarn add react-router-dom",
+            "key": "reactRouterDom"
+        },
+        {
+            "id": 5,
+            "title": "Added react icons package",
+            "command": "yarn add react-icons --save",
+            "key": "reactIcons"
+        }
+    ]
+}
