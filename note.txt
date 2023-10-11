@@ -11,5 +11,8 @@
 //Command
 3. npx create-react-app <projectName> --template typescript
 
+//Added react router dom
+//Command
+4. yarn add react-router-dom
 
 
