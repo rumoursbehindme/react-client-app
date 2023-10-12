@@ -3,4 +3,16 @@
     height: 100%;
     background-color: rgb(54, 57, 83);
     border-radius: 30px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* Center text horizontally */
+    }
+    
+    /* Style for an image within the .screen-container */
+    .screen-container img {
+        max-width: 100%;
+        height: auto;
 }
