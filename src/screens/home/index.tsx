@@ -7,6 +7,7 @@ import Favorites from '../favorites'
 import Trending from '../trending'
 import './home.css'
 import SideBar from '../../components/sidebar'
+import PageNotFound from '../notfound/pagenotfound'
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
                     <Route path='/player' element={<Player />} />
                     <Route path='/favorites' element={<Favorites />} />
                     <Route path='/trending' element={<Trending />} />
+                      <Route path='*' element={< PageNotFound/>} />
                 </Routes>
             </div>
         </Router >
