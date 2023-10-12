@@ -3,7 +3,7 @@ import notFound from '../../assets/Page not found.png'
 
 function PageNotFound() {
   return (
-    <div >
+    <div className='screen-container' >
         <h1>Page Not Found !</h1>
       <img src={notFound} alt="logo" />
     </div>
