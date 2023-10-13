@@ -1,5 +1,5 @@
 import React from 'react'
-import notFound from '../../assets/Page not found.png'
+import notFound from '../../../public/assets/png/Page not found.png'
 
 function PageNotFound() {
   return (
