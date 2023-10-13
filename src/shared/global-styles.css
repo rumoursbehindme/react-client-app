@@ -10,9 +10,3 @@
         text-align: center;
         /* Center text horizontally */
     }
-    
-    /* Style for an image within the .screen-container */
-    .screen-container img {
-        max-width: 100%;
-        height: auto;
-}
