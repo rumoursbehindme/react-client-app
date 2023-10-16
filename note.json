@@ -29,6 +29,24 @@
             "title": "Added react icons package",
             "command": "yarn add react-icons --save",
             "key": "reactIcons"
+        },
+        {
+            "id": 6,
+            "title": "Added i18next - localization helper package",
+            "command": "yarn add i18next",
+            "key": "i18Next"
+        },
+        {
+            "id": 7,
+            "title": "Added backend resource loading extension",
+            "command": "yarn add npm i18next-http-backend",
+            "key": "i18NextHttpBackend"
+        },
+        {
+            "id": 8,
+            "title": "Added react translater package for localization",
+            "command": "yarn add react-i18next",
+            "key": "reactI18Next"       
         }
     ]
 }
