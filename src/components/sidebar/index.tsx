@@ -4,7 +4,7 @@ import SidebarButton from './sidebar-button';
 import { MdSpaceDashboard, MdFavorite } from "react-icons/md";
 import { FaGripfire, FaPlay, FaSignOutAlt } from 'react-icons/fa';
 import { IoLibrary } from "react-icons/io5";
-import { getTranslater } from '../../common/helper/localization-helper';
+import { getTranslater } from '../../common';
 
 export default function SideBar() {
 
