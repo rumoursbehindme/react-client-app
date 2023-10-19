@@ -3,5 +3,8 @@
     "reactTypeSupport",
     "reactTypeScriptApp",
     "reactRouterDom",
-    "reactIcons"
+    "reactIcons",
+    "i18Next",
+    "i18NextHttpBackend",
+    "reactI18Next"
 ]
