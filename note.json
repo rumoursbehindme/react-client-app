@@ -46,7 +46,13 @@
             "id": 8,
             "title": "Added react translater package for localization",
             "command": "yarn add react-i18next",
-            "key": "reactI18Next"       
+            "key": "reactI18Next"
+        },
+        {
+            "id": 9,
+            "title": "Added axios pacakge",
+            "command": "yarn add axios",
+            "key": "axios"
         }
     ]
 }
