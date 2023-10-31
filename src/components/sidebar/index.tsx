@@ -11,7 +11,7 @@ export default function SideBar() {
     const t = getTranslater('sidebar')
     return (
         <div className='sidebar-container'>
-            <img src='logo192.png' className='profile-img' alt='profile' />
+            <img src='/logo192.png' className='profile-img' alt='profile' />
             <div className='navigation-container'>
                 <SidebarButton title={t('feed')} redirectUrl='/feed' icon={<MdSpaceDashboard />} />
                 <SidebarButton title={t('trending')} redirectUrl='/trending' icon={<FaGripfire />} />
