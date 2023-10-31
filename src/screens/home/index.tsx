@@ -23,12 +23,7 @@ function Home() {
         } else {
             const hash = window.location.hash;
             const accessToken = hash.split('&')[0].split('=')[1];
-
-            const localStorageValue = {
-                value: accessToken,
-                expiration: new Date().getTime() + 30 * 1000
-            }
-            window.localStorage.setItem('token', JSON.stringify(localStorageValue));
+            window.localStorage.setItem('token', JSON.stringify(accessToken));
             setToken(accessToken);
             setClientToken(accessToken);
         }
