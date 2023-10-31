@@ -6,5 +6,6 @@
     "reactIcons",
     "i18Next",
     "i18NextHttpBackend",
-    "reactI18Next"
+    "reactI18Next",
+    "axios"
 ]
