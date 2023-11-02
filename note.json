@@ -53,6 +53,24 @@
             "title": "Added axios pacakge",
             "command": "yarn add axios",
             "key": "axios"
+        },
+        {
+            "id": 10,
+            "title": "To add new vite js project",
+            "command": "yarn create vite",
+            "key": "vite"
+        },
+        {
+            "id": 11,
+            "title": "",
+            "command": "yarn add vite @vitejs/plugin-react vite-tsconfig-paths",
+            "key": "viteExt"
+        },
+        {
+            "id": 12,
+            "title":"removed react scripts after adding vite",
+            "command":"yarn remove react-scripts",
+            "key": "removeReactScript"
         }
     ]
 }
