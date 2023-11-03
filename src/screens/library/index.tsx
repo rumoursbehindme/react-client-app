@@ -32,14 +32,14 @@ export default function Library() {
 
             return <div className='playlist-card' key={id} onClick={() => playPlaylist(playlist.id)}>
               <img src={images[0].url} className='playlist-image' alt='PLAYLIST-CARD' />
+              <span className='playlist-title'>{name}</span>
               <div className='playlist-text-container'>
-                <span className='playlist-title'>{name}</span>
                 <span className='playlist-sub-title'>{total === 1 ? total + ' Song' : total + ' Songs'}</span>
-              </div>
-              <div className="playlist-fade">
-                <IconContext.Provider value={{ size: "50px", color: "#E99D72" }}>
-                  <AiFillPlayCircle />
-                </IconContext.Provider>
+                <div className="playlist-fade">
+                  <IconContext.Provider value={{ size: "50px", color: "#E99D72" }}>
+                    <AiFillPlayCircle />
+                  </IconContext.Provider>
+                </div>
               </div>
             </div>
           }
