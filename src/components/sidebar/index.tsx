@@ -15,11 +15,11 @@ export default function SideBar() {
             <div className='navigation-container'>
                 <SidebarButton title={t('feed')} redirectUrl='/feed' icon={<MdSpaceDashboard />} />
                 <SidebarButton title={t('trending')} redirectUrl='/trending' icon={<FaGripfire />} />
-                <SidebarButton title={t('player')} redirectUrl='/player' icon={<FaPlay />} />
+                <SidebarButton title={t('player')} redirectUrl='/' icon={<FaPlay />} />
                 <SidebarButton title={t('favorites')} redirectUrl='/favorites' icon={<MdFavorite />} />
-                <SidebarButton title={t('library')} redirectUrl='/' icon={<IoLibrary />} />
+                <SidebarButton title={t('playlists')} redirectUrl='/playlists' icon={<IoLibrary />} />
             </div>
-            <SidebarButton title='Sign Out' redirectUrl='/signout' icon={<FaSignOutAlt />} />
+            <SidebarButton title='Sign Out' redirectUrl='/logout' icon={<FaSignOutAlt />} reload />
         </div>
     )
 }
