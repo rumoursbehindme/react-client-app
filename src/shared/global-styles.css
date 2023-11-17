@@ -1,8 +1,8 @@
 .screen-container {
     width: calc(100% - 100px);
     height: 100%;
-    background-color: rgb(54, 57, 83);
-    border-radius: 30px;
+    color: whitesmoke;
+    background-color: rgb(18, 24, 32);
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -6,7 +6,7 @@ a {
     width: 80px;
     height: 80px;
     border-radius: 20px;
-    color: rgb(212, 209, 203);
+    color: rgb(241, 233, 233);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,12 +15,12 @@ a {
 }
 
 .sidebar-button-body:hover {
-    color: white;
+    color: rgb(29, 200, 29);
 }
 
 .sidebar-button-body.active {
     background-color: rgb(224 215 209 / 40%);
-    color: #fff;
+    color: rgb(29, 200, 29);
     transform: scale(1.05);
 
 }
