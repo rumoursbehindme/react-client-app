@@ -1,0 +1,9 @@
+.player-container{
+    width: 94%;
+    display: grid;
+    height: 94%;
+    justify-items: flex-end;
+    padding: 3%;
+    overflow-y: auto;
+    row-gap: 5%;
+}
