@@ -1,0 +1,50 @@
+.song-card-container {
+    display: grid;
+    min-width: 350px;
+    min-height: 450px;
+    max-height: 450px;
+    max-width: 350px;
+    border: solid 1px rgb(88, 88, 116);
+    background: rgb(17 12 18);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+/* Song card image styling */
+.song-card-image {
+    max-height: 348px;
+    min-height: 348px;
+    max-width: 348px;
+    min-width: 348px;
+    padding: 1px;
+}
+
+/* Hover effect on song card container */
+.song-card-container:hover {
+    box-shadow: -15px 15px 11px 5px #c3d6c51c;
+}
+
+/* Text status styling */
+.song-card-container:hover .status-text,
+.status-text.green {
+    color: rgb(29, 200, 29);
+}
+
+/* Song name transition */
+.song-name {
+    transition: transform 0.5s;
+}
+
+/* Animation for moving song name */
+.song-name.moving {
+    animation: moveText 1s infinite alternate linear;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
