@@ -1,0 +1,94 @@
+.trending-container-grid {
+    display: flex;
+    padding: 3%;
+    height: auto;
+    /* Adjust as needed */
+    width: 94%;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.trending-container-list {
+    overflow-y: auto;
+    gap: 10px;
+    display: grid;
+}
+
+.trending-container-grid .collection-card {
+    display: grid;
+    color: white;
+    width: 15%;
+    min-height: 250px;
+    /* max-height: 250px; Adjust max-height as needed */
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.68) 0%, rgba(9, 9, 61, 0.18) 15%, rgba(40, 86, 105, 0.167) 100%);
+    /* border: 1px solid white; */
+    padding: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.trending-container-list .collection-card {
+    display: grid;
+    color: white;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.68) 0%, rgba(9, 9, 61, 0.18) 15%, rgba(40, 86, 105, 0.167) 100%);
+    /* border: 1px solid white; */
+    padding: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        'collectionImage songTitle'
+        'collectionImage songTitle'
+        'collectionImage songSubTitle';
+}
+
+.trending-container-grid .collection-card:hover {
+    background: linear-gradient(85deg, rgba(54, 191, 67, 0.68) 0%, rgba(7, 85, 11, 0.316) 15%, rgba(10, 0, 0, 0.178) 100%);
+}
+.trending-container-list .collection-card:hover {
+    background: linear-gradient(85deg, rgba(54, 191, 67, 0.68) 0%, rgba(7, 85, 11, 0.316) 15%, rgba(10, 0, 0, 0.178) 100%);
+}
+.trending-container-grid .collection-image {
+    width: 100%;
+    aspect-ratio: 1;
+    /* Adjust aspect ratio as needed */
+    border-radius: 15px;
+}
+
+.trending-container-list .collection-image {
+    width: 100%;
+    grid-area: collectionImage;
+}
+
+.trending-container-grid .collection-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #779bbb;
+}
+
+.trending-container-list .collection-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #779bbb;
+    grid-area: songSubTitle;
+}
+.trending-container-grid .collection-title {
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 1;
+}
+.trending-container-list .collection-title {
+    grid-area: songTitle;
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 1;
+}
