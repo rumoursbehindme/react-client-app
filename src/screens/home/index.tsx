@@ -14,11 +14,11 @@ function Home() {
             <div className='main-container'>
                 <SideBar />
                 <Routes>
-                    <Route path='/playlists' element={<PlayLists />} />
-                    <Route path='/feed' element={<Feed />} />
-                    <Route path='/' element={<Player />} />
-                    <Route path='/favorites' element={<Favorites />} />
-                    <Route path='/trending' element={<Trending />} />                    
+                    <Route path='/player/playlists' element={<PlayLists />} />
+                    <Route path='/player/feed' element={<Feed />} />
+                    <Route path='/player' element={<Player />} />
+                    <Route path='/player/favorites' element={<Favorites />} />
+                    <Route path='/player/trending' element={<Trending />} />                    
                     <Route path='*' element={<PageNotFound />} />
                 </Routes>
             </div>

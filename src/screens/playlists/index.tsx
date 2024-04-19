@@ -43,7 +43,7 @@ const Playlists = () => {
   const [playlists, setPlaylists] = useState<IItemProperties[]>([]);
 
   useEffect(() => {
-    fetch('/playlists')
+    fetch('/api/playlists')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -58,7 +58,7 @@ const Playlists = () => {
   const navigate = useNavigate();
 
   const playPlaylist = (id: string) => {
-    navigate('/player', { state: { id } });
+    navigate('/', { state: { id } });
   };
 
   return (

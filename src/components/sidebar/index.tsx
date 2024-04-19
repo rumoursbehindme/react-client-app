@@ -13,11 +13,11 @@ export default function SideBar() {
         <div className='sidebar-container'>
             <img src='/logo192.png' className='profile-img' alt='profile' />
             <div className='navigation-container'>
-                <SidebarButton title={t('feed')} redirectUrl='/feed' icon={<MdSpaceDashboard />} />
-                <SidebarButton title={t('trending')} redirectUrl='/trending' icon={<FaGripfire />} />
-                <SidebarButton title={t('player')} redirectUrl='/' icon={<FaPlay />} />
-                <SidebarButton title={t('favorites')} redirectUrl='/favorites' icon={<MdFavorite />} />
-                <SidebarButton title={t('playlists')} redirectUrl='/playlists' icon={<IoLibrary />} />
+                <SidebarButton title={t('feed')} redirectUrl='/player/feed' icon={<MdSpaceDashboard />} />
+                <SidebarButton title={t('trending')} redirectUrl='/player/trending' icon={<FaGripfire />} />
+                <SidebarButton title={t('player')} redirectUrl='/player' icon={<FaPlay />} />
+                <SidebarButton title={t('favorites')} redirectUrl='/player/favorites' icon={<MdFavorite />} />
+                <SidebarButton title={t('playlists')} redirectUrl='/player/playlists' icon={<IoLibrary />} />
             </div>
             <SidebarButton title='Sign Out' redirectUrl='/logout' icon={<FaSignOutAlt />} reload />
         </div>

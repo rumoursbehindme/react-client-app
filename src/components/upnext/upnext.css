@@ -1,0 +1,52 @@
+/* Up Next container styling */
+.up-next-container {
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+    display: grid;
+    justify-items: start;
+    background: linear-gradient(0deg, rgba(22, 22, 19, 0.87718837535014) 0%, rgba(26, 57, 92, 0.9528186274509804) 42%);
+}
+
+.up-next-container:hover{
+    background: none;
+}
+
+/* Up Next header styling */
+h1 {
+    margin: 10px;
+    color:rgb(29, 200, 29);
+}
+
+/* Up Next item styling */
+.up-next-item {
+    display: block;
+    padding: 10px;
+    margin: 5px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform transition */
+
+    &:hover {
+        background-color: rgb(17 12 18);
+        color:rgb(29, 200, 29);
+        transform: scale(0.95); /* Apply smooth scaling on hover */
+    }
+
+    /* Styles for the index number */
+    .index {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+}
+
+.up-next-or-prev{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

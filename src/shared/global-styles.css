@@ -10,3 +10,16 @@
         text-align: center;
         /* Center text horizontally */
     }
+    
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2f2a2a78 /* Color of the thumb */
+    /* border-radius: 6px; Radius of the thumb */
+}
+
+
