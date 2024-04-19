@@ -58,7 +58,7 @@ const Playlists = () => {
   const navigate = useNavigate();
 
   const playPlaylist = (id: string) => {
-    navigate('/', { state: { id } });
+    navigate('/player', { state: { id } });
   };
 
   return (
