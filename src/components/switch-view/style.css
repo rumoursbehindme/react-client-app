@@ -1,0 +1,28 @@
+.switch-class {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.switch-class button {
+    background: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.switch-class button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.in-view {
+    opacity: 0.3;
+}
