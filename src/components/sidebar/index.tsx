@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles/sidebar.css';
 import SidebarButton from './sidebar-button';
 import { MdSpaceDashboard, MdFavorite } from "react-icons/md";
@@ -7,11 +7,19 @@ import { IoLibrary } from "react-icons/io5";
 import { getTranslater } from '../../common';
 
 export default function SideBar() {
+    const [profileImage, setProfileImage] = useState('/logo192.png')
+    useEffect(() => {
+        fetch('/api/user-details')
+            .then(response => response.json())
+            .then(data =>
+                setProfileImage(data.images[0].url)
+            );
+    })
 
     const t = getTranslater('sidebar')
     return (
         <div className='sidebar-container'>
-            <img src='/logo192.png' className='profile-img' alt='profile' />
+            <img title='Profile' src={profileImage} className='profile-img' alt='profile' />
             <div className='navigation-container'>
                 <SidebarButton title={t('feed')} redirectUrl='/player/feed' icon={<MdSpaceDashboard />} />
                 <SidebarButton title={t('trending')} redirectUrl='/player/trending' icon={<FaGripfire />} />
