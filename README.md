@@ -70,14 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 -->
-<div align="center"> <a href="https://r15music.onrender.com/player/trending">
-    <img
-      src="https://drive.google.com/file/d/1JdK_glAShdA1ESG4ZeGkuLgfsiXqiH8n/view?usp=sharing"
-      width="650"
-      height="auto"
-    />
-  </a>
-</div>
 
 <div align="center">
 # Vite JS:
