@@ -70,10 +70,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 -->
+<div align="center"> <a href="https://r15music.onrender.com/player/trending">
+    <img
+      src="https://drive.google.com/file/d/1JdK_glAShdA1ESG4ZeGkuLgfsiXqiH8n/view?usp=sharing"
+      width="650"
+      height="auto"
+    />
+  </a>
+</div>
 
+<div align="center">
 # Vite JS:
 * Documentation: https://vitejs.dev/guide/why.html
-* Refer this document to know how it is implemented in this project : "https://docs.google.com/document/d/1WiFD4eHARZvitYe3LFdk9WRaYcsaf6dp6LRIyEqDo0U"
+* Refer to this document to know how it is implemented in this project: "https://docs.google.com/document/d/1WiFD4eHARZvitYe3LFdk9WRaYcsaf6dp6LRIyEqDo0U"
 
 # Standards:
 * font-size: 14px and 16px
