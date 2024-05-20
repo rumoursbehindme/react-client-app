@@ -70,8 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 -->
-
-<div align="center">
 # Vite JS:
 * Documentation: https://vitejs.dev/guide/why.html
 * Refer to this document to know how it is implemented in this project: "https://docs.google.com/document/d/1WiFD4eHARZvitYe3LFdk9WRaYcsaf6dp6LRIyEqDo0U"
